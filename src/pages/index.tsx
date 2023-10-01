@@ -15,7 +15,7 @@ export default function Home(): JSX.Element {
 							NextJS Boilerplate
 						</h1>
 						<p className="px-5 text-xs sm:text-base text-gray-400">
-							Edit `index.tsx` to begin
+							hello world!
 						</p>
 					</div>
 					<div className="flex justify-center pt-2 space-x-4 align-center">
