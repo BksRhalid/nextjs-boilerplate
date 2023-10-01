@@ -1,0 +1,39 @@
+{
+	"name": "my-app",
+	"version": "0.1.0",
+	"author": "Nik Schaefer <nikkschaefer@gmail.com>",
+	"license": "MIT",
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/NikSchaefer/"
+	},
+	"keywords": [
+		"NextJS"
+	],
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"postbuild": "next-sitemap",
+		"clean": "npx prettier --write ."
+	},
+	"dependencies": {
+		"clsx": "^1.2.1",
+		"lucide-react": "^0.273.0",
+		"next": "13.4.19",
+		"next-seo": "^6.0.0",
+		"next-sitemap": "^4.2.2",
+		"react": "18.2.0",
+		"react-dom": "18.2.0",
+		"typescript": "^4.9.5"
+	},
+	"devDependencies": {
+		"@babel/preset-typescript": "^7.21.4",
+		"@types/node": "^20.5.0",
+		"@types/react": "^18.2.17",
+		"autoprefixer": "^10.4.14",
+		"eslint": "^8.46.0",
+		"eslint-config-galex": "^4.4.2",
+		"prettier": "^3.0.3"
+	}
+}
